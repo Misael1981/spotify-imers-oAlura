@@ -7,8 +7,12 @@
 
     <title>Spotify Imersão</title>
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="./src/assets/style/reset.css">
+    <link rel="stylesheet" href="./src/assets/style/vars.css">
+    <link rel="stylesheet" href="./src/assets/style/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/style/main-content.css">
+    
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -24,7 +28,7 @@
         <nav class="sidebar__navegation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/logo-spotify.png" alt="Logo do Spotify">
+                    <img src="./src/assets/logo-spotify.png" alt="Logo do Spotify">
                 </a>
             </div>
                     <ul>
@@ -74,5 +78,26 @@
         </div>
         
     </div>
+<!--CONTEÚDO PRINCIPAL CABEÇALHO-->
+    <main>
+        <div class="main-container">
+            <nav class="header__navegation">
+                <div class="navegation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/small-left.png" alt="Seta Esquerda"></button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/small-right.png" alt="Seta Direira"></button>
+                </div>
+                    <div class="header__search">
+                        <img src="./src/assets/search.png">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+        </div>
+    </main>
 </body>
 </html>
